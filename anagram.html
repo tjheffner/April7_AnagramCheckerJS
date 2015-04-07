@@ -1,8 +1,50 @@
 <html>
     <head>
-        <title></title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <link href="css/styles.css" rel="stylesheet" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="js/scripts.js"></script>
+        <title>Anagram Checker</title>
     </head>
     <body>
+        <div class="container">
 
+            <h3>Check a word:</h3>
+
+           <form id="anagram">
+               <div class="form-group">
+                   <label for="input1">Enter your base word:</label>
+                   <input id="input1" name="input1" type="text" class="form-control" required>
+               </div>
+               <div class="form-group">
+                   <label for="input2">Enter the words you'd like to check:</label>
+                   <input id="input2" name="input2" type="text" class="form-control" required>
+               </div>
+
+               <div class="form-group">
+                   <input id="input3" name="input3" type="text" class="form-control" required>
+               </div>
+               <div class="form-group">
+                   <input id="input4" name="input4" type="text" class="form-control" required>
+               </div>
+               <div class="form-group">
+                   <input id="input5" name="input5" type="text" class="form-control" required>
+               </div>
+
+
+               <button type="submit" class="btn btn-info">Submit</button>
+           </form>
+
+           <div id="result">
+                <h3><span class="input1"></span> <span id="match" class="text-danger"></span> with <span class="input2"></span></h3>
+
+                <h3><span class="input1"></span> <span id="match2" class="text-danger"></span> with <span class="input3"></span></h3>
+
+                <h3><span class="input1"></span> <span id="match3" class="text-danger"></span> with <span class="input4"></span></h3>
+
+                <h3><span class="input1"></span> <span id="match4" class="text-danger"></span> with <span class="input5"></span></h3>
+           </div>
+
+        </div>
     </body>
 </html>

@@ -7,7 +7,10 @@ describe('anagram', function () {
             expect(anagram('a', 'b')).to.equal("is not a match");
     });
 
-    it('will return all possible matches of a letter', function() {
+    it('will return all possible matches of a word', function() {
         expect(anagram('ab', 'ba')).to.equal("is a match");
+    });
+    it('will return a possible match if the word is partially correct', function () {
+        expect(anagram("batch", "bat")).to.equal("is a partial match");
     });
 });
