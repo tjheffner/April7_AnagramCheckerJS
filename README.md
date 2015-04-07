@@ -3,9 +3,7 @@
 ### Date: April 6th, 2015
 #### Description
 
-This app allows users to input word and find anagrams
-
-
+This app allows users to input words and determine if they are anagrams.
 
 #### Setup instructions
 1. Clone this git repository
