@@ -1,4 +1,4 @@
-# Pig Latin Translator for Epicodus
+# Anagram Checker (JS) for Epicodus
 ## by Tanner Heffner & Brett Moore
 ### Date: April 6th, 2015
 #### Description
